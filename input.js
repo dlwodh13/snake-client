@@ -26,6 +26,9 @@ const handleUserInput = (key) => {
   if(key === 'd') {
     connection.write("Move: right");
   }
+  if(key === 'p') {
+    connection.write("Say: EAT IT ALL");
+  }
 };
 
 
